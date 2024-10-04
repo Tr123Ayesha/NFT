@@ -1,0 +1,52 @@
+.button{
+    background-color: #DA8F4D;
+    font-size: 21.6px;
+    font-weight: 700s;
+    font-family: 'Poppins', sans-serif; 
+    color: #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 22.9px;
+    border: 1px solid #FFFFFF ;
+    margin-left: 0px;
+   
+
+}
+.button {
+    background-color: #DA8F4D;
+    font-size: 21.6px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 22.9px;
+    border: 1px solid #FFFFFF;
+    margin-left: 0px;
+    
+}
+
+/* For screens between 1024px and 701px */
+@media (max-width: 1024px) and (min-width: 701px) {
+    .button {
+        font-size: 16px; /* Decrease font size for medium devices */
+        padding: 8px 30px; /* Adjust padding to scale down proportionally */
+    
+  
+}}
+
+/* For screens smaller than 700px (like mobile phones) */
+@media (max-width: 700px) and (min-width:391px){
+    .button {
+        font-size: 12px; 
+        padding: 7px 25px; 
+        border-radius: 20px; 
+     
+    }
+}
+@media (max-width: 390px){
+    .button {
+        font-size: 8px; 
+        padding: 7px 7px; 
+        border-radius: 20px; 
+     
+    }
+}

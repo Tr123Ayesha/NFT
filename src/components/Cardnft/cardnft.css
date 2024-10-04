@@ -1,0 +1,85 @@
+.nft-card1 {
+    background-color: #E6DCBA33;
+    margin-right: 3%;
+    border-radius: 15px;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.nft-header1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3px;
+    width: 100%;
+    text-align: left; 
+}
+.create1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+    margin-right: 10px; 
+    color: #858584;
+    
+}
+.nft-image-container1 {
+    margin-bottom: 0px;
+}
+.nft-image1 {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nft-footer1 {
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+.nft-title1 {
+    margin-top: 3px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 18.7px;
+    margin-bottom: 5px;
+display: flex;
+justify-content: center;  
+  color: white;
+}
+
+.creator-name-footer1 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    color: #858584 !important;
+    font-size: 12.6px !important;
+    margin-bottom:3px ;
+}
+
+.createNameFooter1 {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 10.6px;
+}
+@media only screen and (max-width:700px){
+    .nft-card1 {
+        width: 35%;
+    } 
+}
+@media only screen and (min-width:701px) and (max-width:950px){
+    .nft-card1 {
+        width: 22%;
+    }
+}

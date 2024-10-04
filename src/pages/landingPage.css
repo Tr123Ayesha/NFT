@@ -1,0 +1,421 @@
+.LandingPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;      
+    min-height: 100vh; 
+    box-sizing: border-box; 
+}
+.div1Main{
+    background-image:url("../assets/div1bg.svg") ;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.div1Left{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 7%;
+    flex-direction: column;
+    width: 50%;
+}
+.fillstar{
+    z-index: 2;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    height: 70px;
+    width: 70px;
+}
+
+.div1Left h1{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.nft{
+    color: #DA8F4D;
+}
+.div1Left p{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 13.2px;
+    color: #B3B3B3;
+}
+.Calculations{
+    display: flex;
+ margin: 4%;
+   padding-left: 2px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-radius: 39.3px;
+}
+.item{
+    margin-top: 4%;
+    margin-right: 7%;
+}
+.item h1{
+font-family: "Space Mono";
+font-weight: 700;
+font-size: 34px;
+}
+.item p{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 29.7px;
+}
+.div1Right{
+    position: relative;
+    padding-top: 9%;
+    flex-direction: column;
+    width: 40%;
+}
+.thinstar{
+    z-index: 2;
+    position: absolute;
+    bottom: 15%;
+    right:60%;
+    height: 50px;
+    width: 50px;
+}
+.cat{
+    height: 70%;
+}
+.chivron {
+    color: #FFFFFF;
+    position: absolute;
+    top: 62%;
+    right: 21.5%; 
+    transform: translateY(-50%);
+    height: 200px;
+    width: 30px;
+    background-color:none; 
+    border: 1px solid #CDB194;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2Main{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  .div2Main h1{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+  .innerdiv2{
+    display: flex;
+    background-color: #DA8F4D17;
+    padding-bottom: 3%;
+  }
+  .div2Left{
+    padding-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    width: 50%;
+    justify-content: center;
+   
+  }
+  .tiger-image {
+    background-color: #2B2B2BAD;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 35%; 
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+  .div2Right{
+    margin-top: 30px;
+    flex-direction: column;
+    width: 40%;
+  }
+  .div2Right p{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 700;
+    font-size: 16.2px;
+    color: #FFFFFF;
+    width: 90%;
+  }
+  .div3Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px; /* Add padding for space at the bottom if needed */
+    /* Remove height: 100vh */
+}
+
+.lowerDiv3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../assets/image103.svg");
+    width: 100%;
+    border: none;
+    gap: 20px;
+    padding: 20px;
+}
+.div3Main h1{
+    margin-top: 7%;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+  .div3Main p{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18.5px;
+    color: #FFFFFF;
+  }
+ 
+.buttondiv3 {
+    margin-top: 3%;
+}
+
+.div4Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.div4Main h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50.79px;
+    color: #FFFFFF;
+}
+.div4Main p{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 18.9px;
+    color: #FFFFFF;
+}
+.CardDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+    gap: 10px;
+    padding: 5px;
+}
+.div5Main {
+    padding-top: 7%;
+    padding-bottom:7% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.div5Main h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50.79px;
+    color: #FFFFFF;
+}
+.innerdiv5{
+    background-image: url("../assets/image103.svg");
+}
+  @media only screen and (max-width:700px){
+    .div1Left{
+        padding-left: 2%;
+        width: 100%;
+    }
+    .fillstar{
+        top: 20%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+    }
+    .div1Left h1{
+        font-size: 30px;
+    }
+    .div1Left p{
+        font-size: 10.2px;
+    }
+    .Calculations{
+        display: flex;
+     margin: 4%;
+       padding-left: 2px;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border-radius: 39.3px;
+    }
+    .item{
+        margin-top: 4%;
+        margin-right: 7%;
+    }
+    .item h1{
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 24px;
+    }
+    .item p{
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 18.7px;
+    }
+    .div1Right{
+       display: none;
+    }
+      .div2Main h1{
+        font-size: 36px;
+      }
+      .innerdiv2{
+        display: flex;
+        flex-direction: column;
+      }
+      .div2Left{
+        padding-left:8%;
+        width: 100%;
+      }
+      .tiger-image {
+        width: 40%; 
+        border-radius: 12px;
+    }
+      .div2Right{
+        margin-top: 30px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div2Right p{
+        font-family: 'Poppins', sans-serif ;
+        font-weight: 700;
+        font-size: 13.2px;
+        color: #FFFFFF;
+        width: 90%;
+      }
+    .lowerDiv3 {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    }
+    .div3Main h1{
+        font-size: 36px;
+      }
+      .div3Main p{
+        font-size: 12.5px;
+      }
+    .div4Main h1{
+        font-size: 36px;
+    }
+    .div4Main p{
+        font-size: 12.5px;
+    }
+    .CardDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  }
+  
+@media only screen and (min-width:701px) and (max-width:1000px){
+    .div1Left{
+        padding-left: 15%;
+        width: 80%;
+    }
+    .fillstar{
+        top: 20%;
+        left: 80%;
+        height: 50px;
+        width: 50px;
+    }
+    .div1Left h1{
+        font-size: 50px;
+    }
+    .div1Left p{
+        font-size: 13.2px;
+    }
+    .item{
+        margin-top: 4%;
+        margin-right: 7%;
+    }
+    .item h1{
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 34px;
+    }
+    .item p{
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 21.7px;
+    }
+    .div1Right{
+       display: none;
+    }
+      .div2Main h1{
+        font-size: 36px;
+      }
+      .div2Left{
+        padding-left: 8%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px; 
+        width: 50%;
+        justify-content: center;
+       
+      }
+      .tiger-image {
+        background-color: #2B2B2BAD;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 200px;
+        width: 35%; 
+        border-radius: 12px;
+        margin-right: 30px;
+    }
+    
+      .div2Right{
+        margin-top: 30px;
+        flex-direction: column;
+        width: 50%;
+      }
+      .div2Right p{
+        font-family: 'Poppins', sans-serif ;
+        font-weight: 700;
+        font-size: 16.2px;
+        color: #FFFFFF;
+        width: 90%;
+      }
+      .lowerDiv3 {
+        display: flex;
+
+    }
+    .div3Main h1{
+        font-size: 50px;
+      }
+      .div3Main p{
+        font-size: 16.5px;
+      }  
+       .div4Main h1{
+        font-size: 50px;
+    }
+    .div4Main p{
+        font-size: 18.5px;
+    }
+    .CardDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }}
+ 

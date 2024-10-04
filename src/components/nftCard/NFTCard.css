@@ -1,0 +1,97 @@
+.nft-card {
+    background-color: #262626;
+    margin-right: 3%;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.nft-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left; 
+}
+.create {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.circle {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin-right: 10px; 
+}
+
+.creator-name {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 18.5px;
+    color: #B4C7CE;
+}
+
+.createP {
+    font-weight: 600;
+    font-family: 'Clash Display';
+    font-size: 18.53px;
+    color: #ea9112 !important;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 18px;
+}
+
+.nft-image-container {
+    margin-bottom: 10px;
+}
+
+.nft-image {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nft-footer {
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+.nft-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.creator-name-footer {
+   font-weight: 700;
+   font-size: 27px;
+   color: #E2E2E1;
+   font-family: "Poppins";
+}
+
+.createNameFooter {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    color: #EA9112;
+    font-size: 18.5px;
+}
+@media only screen and (max-width:700px){
+    .nft-card {
+        width: 70%;
+    } 
+}
+@media only screen and (min-width:701px) and (max-width:950px){
+    .nft-card {
+        width: 40%;
+    }
+}
