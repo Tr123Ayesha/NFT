@@ -204,17 +204,17 @@ Road Map
     <img src={roadmap } alt="Image"/>
 </div>
 </div>
-<div class="div6Main">
+<div className="div6Main">
   <div className="div6leftBlur"></div>
   <h1>How It Works</h1>
   
-  <div class="div6Container">
-    <div class="div6left">
+  <div className="div6Container">
+    <div className="div6left">
       <img src={image110}alt="Image1"/>
    
     </div>
     
-    <div class="div6Right">
+    <div className="div6Right">
       <img src={filledStar} alt="filledStar"/>
      <h1>Setup And Connect Your Wallet.</h1>
      <p>Lorem ipsum dolor sit amet consectetur.
@@ -224,8 +224,8 @@ Road Map
         et a felis pellentesque sed odio.</p>
     </div>
   </div>
-  <div class="div7Container">
-    <div class="div7left">
+  <div className="div7Container">
+    <div className="div7left">
     <h1>Create your Own Digital NFT</h1>
      <p>Lorem ipsum dolor sit amet consectetur. Donec
        vitae pellentesque nunc ut sit a volutpat elementum.
@@ -236,17 +236,17 @@ Road Map
      
    
     </div>
-    <div class="div7Right">
+    <div className="div7Right">
     <img src={image111}alt="Image 1"/>
     </div>
   </div>
-  <div class="div8Container">
-    <div class="div8left">
+  <div className="div8Container">
+    <div className="div8left">
       <img src={image113}alt="Image 1"/>
    
     </div>
     
-    <div class="div8Right">
+    <div className="div8Right">
      <h1>Setup And Connect Your Wallet.</h1>
      <p>Lorem ipsum dolor sit amet consectetur. 
       Donec vitae pellentesque nunc ut sit a volutpat elementum.
@@ -264,7 +264,7 @@ Road Map
    elementum. Id mattis neque diam nulla. Amet et
     a felis pellentesque sed odio.</p>
     <div className="FooterInner">
-    <input type="text" class="styled-input" placeholder="Your Email"/>
+    <input type="text" className="styled-input" placeholder="Your Email"/>
     <Button text="Join Now" bgColor="gray" textColor="#FFFFFF" border="1px solid #DA8F4D" fontSize="16.5px" />
     </div>
     <span>Ⓒ NFT Market. Use this template freely.</span>
