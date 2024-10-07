@@ -61,7 +61,10 @@
 }
 
 .nft-footer {
+    /* display: flex;
+    flex-direction: column; */
     font-family: 'Poppins', sans-serif;
+    text-align: left;
     white-space: nowrap;
 }
 
@@ -71,6 +74,14 @@
     margin-bottom: 5px;
     color: white;
 }
+.nft-title {
+    min-height: 30px; /* Adjust the height as per your design */
+  }
+  
+  .empty-title {
+    visibility: hidden; /* Hides the title but keeps the space */
+  }
+  
 
 .creator-name-footer {
    font-weight: 700;
