@@ -2,7 +2,7 @@
     background-color: #DA8F4D;
     font-size: 21.6px;
     font-weight: 700s;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', ; 
     color: #FFFFFF;
     padding: 10px 35px;
     border-radius: 22.9px;
@@ -15,7 +15,7 @@
     background-color: #DA8F4D;
     font-size: 21.6px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     color: #FFFFFF;
     padding: 10px 35px;
     border-radius: 22.9px;
@@ -34,7 +34,7 @@
 }}
 
 /* For screens smaller than 700px (like mobile phones) */
-@media (max-width: 700px) and (min-width:391px){
+@media (max-width: 700px) and (min-width:451px){
     .button {
         font-size: 12px; 
         padding: 7px 25px; 
@@ -42,8 +42,9 @@
      
     }
 }
-@media (max-width: 390px){
+@media (max-width: 450px){
     .button {
+        padding-bottom: 10px;
         font-size: 8px; 
         padding: 7px 7px; 
         border-radius: 20px; 
